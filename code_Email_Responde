@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap');
+        </style> 
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+
+        }
+        body{
+            font-family: 'Baloo 2', cursive;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffff;
+        }
+        
+        .ig_Logo{
+            width: 2%;
+            height: auto;
+            color: #219ebc;
+        }
+        .fb_Logo{
+            width: 2%;
+            height: auto;
+            color: #219ebc;
+
+        }
+        .tw_Logo{
+            width: 2%;
+            height: auto;
+            color: #219ebc;
+
+
+        }
+        .Soziale_Netzwerke_Liste{
+            list-style-type: none;
+            text-decoration: none;
+
+        }
+        .Soziale_Netzwerke_Liste > li{
+            display: inline;
+        }
+        .Soziale_Netzwerke{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .links_Footer{
+            list-style-type: none;
+
+        }
+        .links_Footer > li{
+            display:inline;
+
+        }
+        .erster_Link{
+            text-decoration: none;
+
+        }
+        .zweiter_Link{
+            text-decoration: none;
+
+        }
+        .dritter_Link{
+            text-decoration: none;
+
+        }
+        .unten{
+            padding-top: 0.1px;
+            background-color: rgb(239, 238, 238);
+        }
+        .oben{
+            background-color: rgb(255, 255, 255);
+            padding: 1px;
+        }
+        .kundenasprache{
+            font-size: 175%;
+
+        }
+        .footer{
+            margin-top: 58px;
+            margin-bottom: 0px;
+
+        }
+        .alles{
+            background-color: #ffff;
+            padding:25px;
+        }
+        .links_text_footer{
+            font-size: 90%;
+
+
+        }
+        .text_footer{
+            color: rgb(101, 101, 101);
+        }
+    </style>
+</head>
+<body>
+    
+<div class="alles">
+    <header>
+        <center> <h3>"Camiri Logo"</h3></center>
+   
+</header>
+</br>
+</br>
+</br>
+    <p class="kundenasprache">
+        "Hier wird in der Regel der Kunde angesprochen"
+    </p>
+</br>
+    <p>Hier könnte in Zukunft Text stehen.Hier könnte in Zukunft Text stehen.Hier könnte in Zukunft Text stehen.Hier könnte in Zukunft Text stehen.</p>
+    <p>Hier könnte in Zukunft auch Text stehen.Hier könnte in Zukunft auch Text stehen.Hier könnte in Zukunft auch Text stehen.Hier könnte in Zukunft auch Text stehen.</p>
+</br>       
+</br>
+    <p>Hier könnte in Zukunft der Token stehen</p>
+<br/>
+<br/>
+    <p>Hier könnte ein Hinweis auf das support Team stehen.Hier könnte ein Hinweis auf das support Team stehen.Hier könnte ein Hinweis auf das support Team stehen.</p>
+</br>
+</div>
+</div>
+<div class="unten" style="text-align: center;">
+    <footer >
+        <div class="footer">
+            <div>
+                
+                    <div class="Soziale_Netzwerke">
+                    <ul class="Soziale_Netzwerke_Liste">
+                        
+                <li><a href="#"><img class="ig_Logo" src="Ig_Logo.jpg" alt="Hier müsste eigentlich das Ig Logo sein"></a></li>
+                <p style="display: inline;"> - </p>
+
+                <li><a href="#"><img class="fb_Logo" src="Fb_Logo.jpg" alt="Hier müsste eigentlich das Fb Logo sein"></a></li>
+                <p style="display: inline;"> - </p>
+
+                <li><a href="#"><img class="tw_Logo" src="Tw_Logo.jpg" alt="Hier müsste eigentlich das Tw Logo sein"></a></li>
+                    
+                </ul>
+                </div>
+            </br>
+                
+        <div class="links_text_footer">
+            <div class="text_footer">
+        <p>Hier könnte das Copyright stehen</p>
+        <p>Hier könnte die Adresse oder sonstiges stehen</p>
+    </div>
+        <div>
+        <ul class="links_Footer">
+    <li>
+        <a href="www.google.com"  class="erster_Link" >erster_Möglicher_Link</a>
+        <p style="display: inline;"> - </p>
+    </li>
+
+    <li>
+        <a href="www.google.com" class="zweiter_Link">zweiter_Möglicher_Link</a>
+        <p style="display: inline;"> - </p>
+    </li>
+
+    <li>
+        <a href="www.google.com" class="dritter_Link">dritter_Möglicher_Link</a>
+        
+    </li>
+    </ul>
+</div>
+</div>
+</div>
+    </footer>
+
+</div>
+</body>
+</html>
